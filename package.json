@@ -1,0 +1,40 @@
+{
+  "name": "imgo",
+  "version": "2.0.0",
+  "description": "",
+  "keywords": ["svgo", "svg", "optimize", "minify"],
+  "homepage": "http://imgo.github.com/imgo",
+  "bugs": {
+    "url": "https://github.com/imgo/imgo/issues",
+    "email": "kir@soulshine.in"
+  },
+  "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
+  "contributors": [
+    "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imgo/imgo.git"
+  },
+  "main": "./lib/svgo.js",
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "bin": {
+    "svgo": "./bin/svgo"
+  },
+  "dependencies": {
+    "commander": ">=1.0.4",
+    "findit": ">=0.1.2"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/deepsweet/svgo/master/LICENSE"
+    }
+  ]
+}
