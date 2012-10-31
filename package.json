@@ -6,15 +6,15 @@
   "homepage": "http://imgo.github.com/imgo",
   "bugs": {
     "url": "https://github.com/imgo/imgo/issues",
-    "email": "kir@soulshine.in"
+    "email": "banzalik@gmail.com"
   },
-  "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
+  "author": "Aleksandr Boichenko <banzalik@gmail.com> (https://github.com/banzalik)",
   "contributors": [
-    "Sergey Belov <peimei@ya.ru> (http://github.com/arikon)"
+    ""
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/imgo/imgo.git"
+    "url": "git://github.com/banzalik/imgo2.git"
   },
   "main": "./lib/svgo.js",
   "directories": {
@@ -22,11 +22,12 @@
     "lib": "./lib"
   },
   "bin": {
-    "svgo": "./bin/svgo"
+    "imgo": "./bin/imgo"
   },
   "dependencies": {
     "commander": ">=1.0.4",
-    "findit": ">=0.1.2"
+    "findit": ">=0.1.2",
+    "async": ">=0.1.22"
   },
   "engines": {
     "node": ">=0.6.0"
